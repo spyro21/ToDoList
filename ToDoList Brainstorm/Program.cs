@@ -15,12 +15,12 @@ namespace ToDoList_Brainstorm
             toDoList[1] = "nice";
             actionQ(toDoList);
         }
-        //
+       
         public static void actionQ(string[] arr) {
             
 
             string actionA;
-            string newItem;
+           
 
             listItems(arr);
             Console.WriteLine("add or check?");
